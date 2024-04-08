@@ -1,0 +1,1241 @@
+/* ---------primera sesión (azul)--------------- */
+.inicio__contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(30, 30, 226);
+}
+.inicio__box {
+  width: 17rem;
+  margin: auto 2rem;
+}
+.inicio__icon1 {
+  font-size: 2.5rem;
+  width: 3.5rem;
+  padding-top: 0.2em;
+  text-align: center;
+  border-radius: 0.2em;
+  background-color: rgb(4, 106, 170);
+  margin-left: 0.5em;
+  color: rgb(178, 191, 191);
+}
+.inicio__h2 {
+  font-family: Verdana, Geneva;
+  font-size: 1.2em;
+  margin-left: 0.5em;
+  color: azure;
+}
+.inicio__p {
+  font-family: Verdana, Geneva;
+  font-size: 1em;
+  margin-left: 0.5em;
+  color: azure;
+}
+.inicio__div {
+  display: flex;
+  align-items: center;
+  width: 9rem;
+  height: 4rem;
+  margin-left: 0.5em;
+  border-radius: 0.5em;
+  background-color: black;
+}
+.inicio__icon {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(178, 191, 191);
+}
+.inicio__p1,
+.inicio__p2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(178, 191, 191);
+}
+.inicio__p2 {
+  font-size: 1em;
+}
+/* ---------------primera sesión (azul)--------------------- */
+.mensaje__box {
+  width: 20rem;
+  height: 29rem;
+  margin: 3.5rem auto 0;
+  border: 0.4em solid rgb(5, 5, 84);
+  border-radius: 1.4em 1.4em 0 0;
+  border-bottom: none;
+  display: flex;
+  position: relative;
+  background-color: rgb(234, 238, 238);
+}
+.uno {
+  width: 20.3rem;
+  height: 2rem;
+  margin: 0.8em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.uno__p {
+  font-size: 0.7em;
+  margin: 0 2.2em;
+}
+.dos__h2 {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0 0.3em;
+}
+.dos__p {
+  font-size: 0.7em;
+  margin: 0;
+  padding: 0 0.5em;
+}
+.mensaje__div {
+  position: absolute;
+  top: 12rem;
+  left: 0;
+  width: 18.5rem;
+  height: 14rem;
+  border-radius: 0.3em;
+  background-color: azure;
+  box-shadow: 0em 0.1em 0.3em grey;
+  margin: 0 0.6rem;
+  z-index: 5;
+}
+.mensaje__div.mensaje__div:nth-child(2) {
+  top: 11.5rem;
+  left: 0.1em;
+  z-index: 4;
+  width: 18.3rem;
+}
+.mensaje__div.mensaje__div:nth-child(3) {
+  top: 11rem;
+  z-index: 3;
+  width: 18.1rem;
+  left: 0.2em;
+}
+.mensaje__div.mensaje__div:nth-child(4) {
+  top: 10.5rem;
+  z-index: 2;
+  width: 17.9rem;
+  left: 0.3em;
+}
+.mensaje__div.mensaje__div:nth-child(5) {
+  top: 10rem;
+  z-index: 1;
+  width: 17.7rem;
+  left: 0.4em;
+}
+.mensaje__h3,
+.mensaje__p {
+  padding: 0 0.5em;
+}
+.mensaje__h4 {
+  margin: 0;
+  padding: 0 0.5em;
+}
+.mensaje__link {
+  text-decoration: none;
+  color: black;
+}
+/* -----------------------segunda sesion-------------------------------- */
+.segundo__contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(236, 27, 79, 0.96); 
+}
+.segundo__boxes {
+  width: 20rem;
+  height: 29rem;
+  margin: 0 auto 3rem;
+  border: 0.3em solid brown;
+  border-radius: 0 0 1.4em 1.4em;
+  border-top: none;
+  display: flex;
+  position: relative;
+  background-color: rgb(234, 238, 238);
+}
+.segundo__box {
+  position: absolute;
+  left: 0;
+  top: 6rem;
+  width: 18.5rem;
+  height: 14rem;
+  margin: 0 0.6rem;
+  border-radius: 0.4em;
+  background-color: transparent;
+  box-shadow: 0em 0em 0.4em rgb(84, 81, 81);
+  z-index: 4;
+  transform: rotate(-3deg) translatex(-2em);
+}
+.segundo__box--uno {
+  position: absolute;
+  left: 0.1em;
+  top: 5rem;
+  width: 18.3rem;
+  height: 14rem;
+  margin: 0 0.6rem;
+  border-radius: 0.4em;
+  background-color: white;
+  box-shadow: 0em 0em 0.3em gainsboro;
+  z-index: 3;
+}
+.segundo__box--dos {
+  position: absolute;
+  left: 0.2em;
+  top: 4.5rem;
+  width: 18.1rem;
+  height: 14rem;
+  margin: 0 0.6rem;
+  border-radius: 0.4em;
+  background-color: white;
+  box-shadow: 0em 0em 0.3em gainsboro;
+  z-index: 2;
+}
+.segundo__box--tres {
+  position: absolute;
+  left: 0.3em;
+  top: 4rem;
+  width: 17.9rem;
+  height: 14rem;
+  margin: 0 0.6rem;
+  border-radius: 0.4em;
+  background-color: white;
+  box-shadow: 0em 0em 0.3em gainsboro;
+  z-index: 1;
+}
+.segundo__icons {
+  position: absolute;
+  top: 24rem;
+  width: 18rem;
+  height: 2rem;
+  margin: 0 0.3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.segundo__iuno {
+  border: 1px solid;
+  width: 2em;
+  text-align: center;
+  padding: 0.3em 0;
+  border-radius: 1.7em;
+  background-color: rgba(236, 27, 79, 0.96);
+  color: azure;
+}
+.segundo__p {
+  font-size: x-small;
+}
+.segundo__idos {
+  width: 2em;
+  text-align: center;
+  padding: 0.3em 0;
+  color: blue;
+}
+.segundo__barra {
+  position: absolute;
+  top: 17.3rem;
+  left: 6rem;
+  font-weight: bold;
+  font-size: 5em;
+  color: black;
+}
+.segundo__box--text {
+  width: 17rem;
+  margin: 2rem auto;
+}
+.segundo__icon {
+  width: 3rem;
+  text-align: center;
+  padding: 0.4em 0em;
+  border-radius: 5rem;
+  background-color: rgb(225, 141, 155);
+  color: azure;
+}
+.segundo__box--h2 {
+  font-family: Verdana, Geneva;
+  font-size: 1em;
+  margin-left: 0.5em;
+  color: azure;
+}
+/* -----------------------------------tercera sesion------------------------------------------------- */
+
+.tercer__contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black; 
+}
+.tercera__box--text{
+  width: 17rem;
+  margin: 2rem auto;
+}
+.tercera__icon {
+  width: 3rem;
+  text-align: center;
+  padding: 0.4em 0em;
+  border-radius: 5rem;
+  color: azure;
+  background-color: grey;
+}
+.tercera__boxes {
+  width: 20rem;
+  height: 29rem;
+  margin: 0 auto 3rem;
+  border: 0.3em solid grey;
+  border-radius: 0 0 1.4em 1.4em;
+  border-top: none;
+  display: flex;
+  position: relative;
+  background-color: rgb(234, 238, 238);
+}
+.tercera__box--uno {
+  position: absolute;
+  left: 0;
+  top: 6rem;
+  width: 18.5rem;
+  height: 14rem;
+  margin: 0 0.6rem;
+  border-radius: 0.4em;
+  background-color: transparent;
+  box-shadow: 0em 0em 0.4em rgb(84, 81, 81);
+  z-index: 4;
+  transform: rotate(3deg) translatex(2em);
+}
+.tercera__box--dos {
+  position: absolute;
+  left: 0.4em;
+  top: 5rem;
+  width: 18.3rem;
+  height: 14rem;
+  margin: 0 0.6rem;
+  border-radius: 0.4em;
+  background-color: white;
+  box-shadow: 0em 0em 0.3em gainsboro;
+  z-index: 3;
+}
+.tercera__box--tres {
+  position: absolute;
+  left: 0.2em;
+  top: 4.5rem;
+  width: 18.1rem;
+  height: 14rem;
+  margin: 0 0.6rem;
+  border-radius: 0.4em;
+  background-color: white;
+  box-shadow: 0em 0em 0.3em gainsboro;
+  z-index: 2;
+}
+.tercera__box--cuatro {
+  position: absolute;
+  left: 0.1em;
+  top: 4rem;
+  width: 17.9rem;
+  height: 14rem;
+  margin: 0 0.6rem;
+  border-radius: 0.4em;
+  background-color: white;
+  box-shadow: 0em 0em 0.3em gainsboro;
+  z-index: 1;
+}
+.tercera__icons {
+  position: absolute;
+  top: 24rem;
+  width: 18rem;
+  height: 2rem;
+  margin: 0 0.3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tercera__iuno {
+  width: 2em;
+  text-align: center;
+  padding: 0.3em 0;
+  color: rgba(236, 27, 79, 0.96);
+}
+.tercera__p {
+  font-size: x-small;
+}
+.tercera__idos {
+  width: 2em;
+  text-align: center;
+  padding: 0.3em 0;
+  color: azure;
+  background-color: blue;
+  border-radius: 1.5rem;
+}
+/* ----------------------------cuarta sesion--------------------------- */
+.revision__contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: goldenrod; 
+}
+.revision__div {
+  width: 20rem;
+  height: 29rem;
+  margin: 3.5rem auto 0;
+  border: 0.4em solid rgb(145, 92, 13);
+  border-radius: 1.4em 1.4em 0 0;
+  border-bottom: none;
+  background-color: black;
+  position: relative;
+}
+.revision__uno {
+  width: 20rem;
+  height: 2rem;
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.revision__uno--p {
+  font-size: 0.7em;
+  margin: 0 2.2em;
+  color: white;
+}
+.revision__boxes {
+  width: 20rem;
+  height: 25.9rem;
+  margin: 1rem auto 0;
+  border: 0.1em solid grey;
+  border-radius: 1.4em 1.4em 0 0;
+  border-bottom: none;
+  background-color: azure;
+  z-index: 2;
+  position: absolute;
+  top: 2rem;
+}
+.revision__boxes--cero {
+  width: 20rem;
+  height: 26rem;
+  border-radius: 1.4em 1.4em 0 0;
+  border-bottom: none;
+  background-color: grey;
+  z-index: 1;
+  position: absolute;
+  top: 1.9rem;
+}
+.revision__box--uno {
+  width: 19.9rem;
+  margin: 0 auto;
+  border-bottom: 0.1em solid rgb(230, 245, 247);
+}
+.revision__box {
+  width: 19.9rem;
+  height: 3.8rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1em solid rgb(230, 245, 247);
+}
+.revision__box--mensaje {
+  width: 19.5rem;
+  height: 3.8rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.revision__h3 {
+  color: blue;
+  padding: 0;
+}
+.revision__h3--mensaje,
+.revision__h4 {
+  margin: 0;
+  padding: 0.5em;
+}
+.revision__p {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0 0.5em;
+}
+.revision__p--mensaje {
+  font-size: 0.9em;
+  padding: 0.5em;
+  margin: 0;
+}
+.revision__span {
+  font-size: 0.7em;
+  color: grey;
+}
+.revision__icon {
+  font-size: 1.6em;
+  background-color: beige;
+  color: rgb(242, 161, 11);
+  border-radius: 50%;
+  padding: 0.1em;
+}
+.revision__box--text {
+  width: 17rem;
+  margin: 2rem auto;
+}
+.revision__icon--text {
+  width: 3rem;
+  text-align: center;
+  padding: 0.4em 0em;
+  border-radius: 5rem;
+  background-color: rgb(185, 138, 19);
+}
+.revision__p--text {
+  font-family: Verdana, Geneva;
+  font-size: 1em;
+  margin-left: 0.5em;
+}
+.revision__h2--text {
+  font-family: Verdana, Geneva;
+  font-size: 1em;
+  margin-left: 0.5em;
+}
+/* -------------------------------quinta sesion--------------------------------------------- */
+.enviar__contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(103, 58, 238); 
+}
+.form__contenedor {
+  width: 20.1rem;
+  height: 29rem;
+  margin: 3.5rem auto 0;
+  border: 0.4em solid rgb(66, 28, 149);
+  border-radius: 1.4em 1.4em 0 0;
+  border-bottom: none;
+  background-color: black;
+  position: relative;
+}
+.form {
+  width: 20rem;
+  height: 26rem;
+  margin: 1rem auto 0;
+  border: none;
+  border-radius: 1.4em 1.4em 0 0;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  top: 1.9rem;
+}
+.form__div {
+  display: flex;
+  align-items: center;
+  gap: 3.5em;
+  padding: 1rem 0;
+}
+.form__p1 {
+  color: blue;
+  padding-left: 0.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form__p2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form__button {
+  width: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 16.5rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: transparent;
+}
+.form__label {
+  padding-left: 0.5em;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form__input {
+  width: 19.8rem;
+  height: 3rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.1em solid rgb(230, 245, 247);
+}
+.form__texta {
+  width: 19.7rem;
+  resize: none;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: azure;
+}
+.enviar__div {
+  width: 19rem;
+  margin: 2rem auto;
+}
+.enviar__icon {
+  width: 3rem;
+  text-align: center;
+  padding: 0.4em 0em;
+  border-radius: 5rem;
+  background-color: rgb(82, 32, 233);
+}
+.enviar__h2 {
+  font-family: Verdana, Geneva;
+  font-size: 1em;
+  margin-left: 0.5em;
+  color: azure;
+}
+.enviar__p {
+  font-family: Verdana, Geneva;
+  font-size: 1em;
+  margin-left: 0.5em;
+  color: rgb(215, 143, 231);
+}
+/* ----------------------------sexta sesion--------------------------------- */
+
+.usos__contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: gainsboro;
+}
+.usos__div {
+  width: 45rem;
+  height: 35 rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 1rem auto;
+}
+.usos__box--azul,
+.usos__box--amarillo,
+.usos__box--rosa,
+.usos__box--negro,
+.usos__box--violeta,
+.usos__box--blanca {
+  width: 12rem;
+  height: 9rem;
+  border-radius: 0.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  border: none;
+  color: azure;
+  margin: 0.8rem;
+}
+.usos__box--azul {
+  background-color: rgb(30, 30, 226);
+}
+.usos__box--rosa {
+  background-color: rgba(236, 27, 79, 0.96);
+}
+.usos__box--amarillo {
+  background-color: goldenrod;
+  color: black;
+}
+.usos__box--negro {
+  background-color: black;
+}
+.usos__box--violeta {
+  background-color: rgb(103, 58, 238);
+}
+.usos__box--blanca {
+  background-color: white;
+  color: black;
+}
+.usos__h3a,
+.usos__h3r,
+.usos__h3am,
+.usos__h3n,
+.usos__h3v,
+.usos__h3b {
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  padding: 0.2em;
+  margin: 0.5em;
+  width: 1.6rem;
+  text-align: center;
+}
+.usos__h3a {
+  background-color: rgb(55, 117, 233);
+}
+.usos__h3r {
+  background-color: rgb(225, 141, 155);
+}
+.usos__h3am {
+  background-color: rgb(242, 161, 11);
+}
+.usos__h3n {
+  background-color: rgb(66, 64, 64);
+}
+.usos__h3v {
+  background-color: rgb(71, 23, 217);
+}
+.usos__h3b {
+  background-color: azure;
+}
+.usos__h4 {
+  padding: 0.3em;
+  margin: 0.5em;
+}
+/* ---------------------------septima sesión--------------------------------------------- */
+.comentarios__contenedor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.comentarios__h2 {
+  font-family: Verdana, Geneva;
+  font-size: 1.2em;
+  text-align: center;
+  width: 20rem;
+  height: 2rem;
+  margin: 3rem 18rem 0rem;
+}
+.comentarios__div {
+  width: 45rem;
+  height: 40 rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0.5rem auto;
+}
+.comentarios__box {
+  width: 12rem;
+  height: 11rem;
+  margin: 0.8rem;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: gainsboro;
+}
+.comentarios__p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8em;
+  margin: 2em 1em 0em;
+}
+.comentarios__vista1,
+.comentarios__vista4 {
+  display: flex;
+  align-items: center;
+  margin: 1em 1.5em;
+}
+.comentarios__vista2 {
+  display: flex;
+  align-items: center;
+  margin: 1em 1.5em;
+}
+.comentarios__vista3 {
+  display: flex;
+  align-items: center;
+  margin: 2em 1.5em;
+}
+.comentarios__vista5 {
+  display: flex;
+  align-items: center;
+  margin: 1.1em 1.5em;
+}
+.comentarios__vista6 {
+  display: flex;
+  align-items: center;
+  margin: 3.2em 1.5em;
+}
+.comentarios__h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.8em;
+}
+.comentarios__final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.comentarios__avisos,
+.comentarios__icons {
+  display: flex;
+  align-items: center;
+  gap: 0.9em;
+}
+.avisos__p {
+  color: rgb(103, 100, 100);
+}
+
+/* ------------------------media queries-------------------------------------- */
+
+@media only screen and (min-width: 390px) and (max-width: 540px) {
+  /* -----inicio----primera sesión----------- */
+  .inicio__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .inicio__box {
+    width: 16rem;
+  }
+  .mensaje__box {
+    width: 15rem;
+    margin: 1.5em auto 0;
+  }
+  .uno {
+    width: 14.8rem;
+  }
+  .mensaje__div{
+    width: 14rem;
+    top: 11rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__div.mensaje__div:nth-child(2){
+    width: 13.8rem;
+    top: 10.8rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__div.mensaje__div:nth-child(3){
+    width: 13.6rem;
+    top: 10.6rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__div.mensaje__div:nth-child(4){
+    width: 13.4rem;
+    top: 10.4rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__div.mensaje__div:nth-child(5){
+    width: 13.2rem;
+    top: 10.2rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__h3,
+  .mensaje__h4,
+  .mensaje__p {
+    padding: 0 0.1em;
+    margin: 0 0.1em;
+  }
+  .mensaje__p{
+    font-size: 0.7em;
+  }
+  /* -----------------------segunda sesion-------------------------------- */
+  .segundo__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .segundo__boxes {
+    width: 15rem;
+    margin: 0 auto 0.8em;
+  order: 2;
+  }
+ 
+  .segundo__box {
+    width: 13.5rem;
+    top: 7rem;
+    height: 11rem;
+    margin: 0;
+    box-shadow: 0em 0em 0.5em rgb(65, 63, 63);
+    transform: rotate(-3deg) translatex(-1em);
+  }
+  .segundo__box--uno {
+    width: 13.5rem;
+    top: 6rem;
+    height: 11.5rem;
+    margin: 0 0.3rem;
+  }
+  .segundo__box--dos {
+    width: 13.5rem;
+    top: 5.5rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .segundo__box--tres {
+    width: 13.5rem;
+    top: 4.8rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .segundo__icons {
+    width: 13.5rem;
+    top: 21rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .segundo__barra {
+    left: 5rem;
+    top: 21.8rem;
+    font-size: 3em;
+  }
+  /* -----------------------------------tercera sesion------------------------ */
+  .tercer__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tercera__boxes {
+    width: 15rem;
+    margin: 0 auto 1em;
+  }
+  .tercera__box--uno {
+    width: 13.5rem;
+    top: 7rem;
+    height: 11.5rem;
+    margin: 0;
+    box-shadow: 0em 0em 0.5em rgb(65, 63, 63);
+    transform: rotate(4deg) translatex(2.2em);
+  }
+  .tercera__box--dos {
+    width: 13.5rem;
+    top: 6rem;
+    height: 13.1rem;
+    margin: 0 0.3rem;
+  }
+  .tercera__box--tres {
+    width: 13.5rem;
+    top: 5.5rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .tercera__box--cuatro {
+    width: 13.5rem;
+    top: 4.8rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .tercera__icons {
+    width: 13.5rem;
+    top: 21rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  /* ----------------------------cuarta sesion--------------------------- */
+  .revision__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .revision__div {
+    width: 15rem;
+    margin: 0 auto 0;
+    order: 2;
+  }
+  .revision__uno {
+    width: 15rem;
+  }
+  .revision__uno--p {
+    font-size: 0.8em;
+    margin: 0 0.8em;
+    color: white;
+  }
+  .revision__boxes {
+    width: 14.9rem;
+  }
+  .revision__boxes--cero {
+    width: 15rem;
+  }
+  .revision__box--uno,
+  .revision__box,
+  .revision__box--mensaje {
+    width: 14.9rem;
+  }
+  /* -------------------------------quinta sesion---------------------------- */
+  .enviar__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .enviar__div {
+    width: 15rem;
+    margin: 1.2em auto 0;
+  }
+  .form__contenedor {
+    width: 15rem;
+    margin: 1rem auto 0;
+  }
+  .form {
+    width: 15rem;
+  }
+  .form__button {
+    width: 0.5em;
+    top: 1.6rem;
+    left: 11.8rem;
+    font-size: 1rem;
+  }
+  .form__p1,
+  .form__p2 {
+    font-size: 0.7em;
+    padding-left: 0.3em;
+  }
+  .form__div {
+    gap: 2.7em;
+    width: 14.8rem;
+  }
+  .form__input,
+  .form__texta {
+    width: 14.8rem;
+  }
+  /* ----------------------------sexta sesion--------------------------------- */
+  .usos__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .usos__div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  /* ---------------------------septima sesión------------------------------------- */
+  .comentarios__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comentarios__h2 {
+    font-size: 1em;
+  }
+  .comentarios__div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 745px) {
+  /* ----------------inicio--------------- */
+  .inicio__box {
+    width: 16rem;
+  }
+  .mensaje__box {
+    width: 15rem;
+    margin: 2rem 1.5rem 0rem 0rem;
+  }
+  .uno {
+    width: 14.8rem;
+  }
+  .mensaje__div{
+    width: 14rem;
+    top: 11rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__div.mensaje__div:nth-child(2){
+    width: 13.8rem;
+    top: 10.8rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__div.mensaje__div:nth-child(3){
+    width: 13.6rem;
+    top: 10.6rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__div.mensaje__div:nth-child(4){
+    width: 13.4rem;
+    top: 10.4rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__div.mensaje__div:nth-child(5){
+    width: 13.2rem;
+    top: 10.2rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .mensaje__h3,
+  .mensaje__h4,
+  .mensaje__p {
+    padding: 0 0.1em;
+    margin: 0 0.1em;
+  }
+  .mensaje__p{
+    font-size: 0.7em;
+  }
+  /* -----------------------segunda sesion-------------------------------- */
+
+  .segundo__boxes {
+    width: 15rem;
+    margin: 0rem 0rem 0rem 1.5rem;
+  }
+  .segundo__box {
+    width: 14rem;
+  }
+  .segundo__box {
+    width: 13rem;
+    top: 7rem;
+    height: 11rem;
+    margin: 0;
+    box-shadow: 0em 0em 0.5em rgb(65, 63, 63);
+    transform: rotate(-2deg) translatex(-1em);
+  }
+  .segundo__box--uno {
+    width: 12.9rem;
+    top: 6rem;
+    height: 11.5rem;
+    margin: 0 0.3rem;
+  }
+  .segundo__box--dos {
+    width: 12.8rem;
+    top: 5.5rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .segundo__box--tres {
+    width: 12.7rem;
+    top: 4.8rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .segundo__icons {
+    width: 13.5rem;
+    top: 21rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .segundo__barra {
+    left: 5rem;
+    top: 21.8rem;
+    font-size: 3em;
+  }
+  .segundo__box--text{
+    width: 13rem;
+  }
+  /* -----------------------------------tercera sesion------------------------ */
+  
+  .tercera__box--text{
+    width: 13rem;
+
+  }
+  .tercera__boxes {
+    width: 15rem;
+    margin: 0 auto 1em;
+  }
+  .tercera__box--uno {
+    width: 13rem;
+    top: 7rem;
+    height: 11.5rem;
+    margin: 0;
+    box-shadow: 0em 0em 0.5em rgb(65, 63, 63);
+    transform: rotate(2.8deg) translatex(1.8em);
+  }
+  .tercera__box--dos {
+    width: 12.9rem;
+    top: 6rem;
+    height: 13.1rem;
+    margin: 0 0.3rem;
+  }
+  .tercera__box--tres {
+    width: 12.8rem;
+    top: 5.5rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .tercera__box--cuatro {
+    width: 12.7rem;
+    top: 4.8rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  .tercera__icons {
+    width: 13.5rem;
+    top: 21rem;
+    height: 10rem;
+    margin: 0 0.3rem;
+  }
+  /* ----------------------------cuarta sesion--------------------------- */
+  .revision__div {
+    width: 15rem;
+    margin: 2rem 1.5rem 0rem 1rem;
+  }
+  .revision__uno {
+    width: 15rem;
+  }
+  .revision__uno--p {
+    font-size: 0.8em;
+    margin: 0 0.8em;
+    color: white;
+  }
+  .revision__boxes {
+    width: 14.9rem;
+  }
+  .revision__boxes--cero {
+    width: 15rem;
+  }
+  .revision__box--uno,
+  .revision__box,
+  .revision__box--mensaje {
+    width: 14.9rem;
+  }
+  /* -------------------------------quinta sesion---------------------------- */
+
+  .enviar__div {
+    width: 14rem;
+    margin: 1rem auto 0;
+  }
+  .form__contenedor {
+    width: 15rem;
+    margin: 1rem auto 0;
+  }
+  .form {
+    width: 15rem;
+  }
+  .form__button {
+    width: 0.5em;
+    top: 1.6rem;
+    left: 11.8rem;
+    font-size: 1rem;
+  }
+  .form__p1,
+  .form__p2 {
+    font-size: 0.7em;
+    padding-left: 0.3em;
+  }
+  .form__div {
+    gap: 2.7em;
+    width: 14.8rem;
+  }
+  .form__input,
+  .form__texta {
+    width: 14.8rem;
+  }
+  /* ---------------------------septima sesión------------------------------------- */
+
+  .comentarios__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .comentarios__h2 {
+    font-size: 1em;
+  }
+  .comentarios__div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.2em;
+    margin: 0;
+  }
+  .comentarios__box {
+    width: 15rem;
+    height: 11rem;
+    margin: 0.3rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: gainsboro;
+  }
+  .comentarios__vista1,
+  .comentarios__vista2,
+  .comentarios__vista3,
+  .comentarios__vista4,
+  .comentarios__vista5,
+  .comentarios__vista6 {
+    margin: 0em 1.5em;
+  }
+}
